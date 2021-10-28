@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/produtor-fila-mensagem-e-api/pom.xml" />
+        <option value="$PROJECT_DIR$/consumidor-estoque-java/pom.xml" />
+        <option value="$PROJECT_DIR$/librabbitmq/pom.xml" />
       </list>
     </option>
   </component>

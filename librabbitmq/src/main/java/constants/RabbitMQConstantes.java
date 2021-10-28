@@ -1,4 +1,4 @@
-package com.rodrigo.estoquepreco.constants;
+package constants;
 
 public class RabbitMQConstantes {
 

@@ -1,6 +1,6 @@
 package com.rodrigo.estoquepreco.connections;
 
-import com.rodrigo.estoquepreco.constants.RabbitMQConstantes;
+import constants.RabbitMQConstantes;
 import org.springframework.amqp.core.AmqpAdmin;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.DirectExchange;

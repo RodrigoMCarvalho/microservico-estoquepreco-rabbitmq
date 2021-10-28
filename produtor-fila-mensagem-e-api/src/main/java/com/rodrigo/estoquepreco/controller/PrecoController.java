@@ -1,8 +1,8 @@
 package com.rodrigo.estoquepreco.controller;
 
-import com.rodrigo.estoquepreco.constants.RabbitMQConstantes;
-import com.rodrigo.estoquepreco.dto.Preco;
 import com.rodrigo.estoquepreco.service.RabbitMQService;
+import constants.RabbitMQConstantes;
+import dto.Preco;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PutMapping;
