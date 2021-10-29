@@ -18,7 +18,7 @@ public class PrecoController {
     private RabbitMQService rabbitMQService;
 
     @PutMapping
-    private ResponseEntity alteraEstoque(@RequestBody Preco preco) {
+    private ResponseEntity alteraPreco(@RequestBody Preco preco) {
         rabbitMQService.enviaMensagem(RabbitMQConstantes.FILA_PRECO, preco);
         return ResponseEntity.ok(preco);
     }
