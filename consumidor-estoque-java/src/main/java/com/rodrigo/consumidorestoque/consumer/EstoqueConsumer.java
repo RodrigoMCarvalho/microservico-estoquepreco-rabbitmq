@@ -15,5 +15,6 @@ public class EstoqueConsumer {
         Estoque estoque = new ObjectMapper().readValue(mensagem, Estoque.class);
         System.out.println(estoque.getCodigoProduto());
         System.out.println(estoque.getQuantidade());
+        System.out.println("=====================");
     }
 }
